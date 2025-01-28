@@ -164,7 +164,7 @@ p {
 }
 
 /* Certifications section styling */
-#certifications , #projects {
+#certifications{
     margin: 150px 10% 50px;
     padding: 40px;
     background-color: #e8e3e3;
@@ -359,16 +359,16 @@ button[type="submit"]:hover {
         margin-left: 0;
     }
 
-    #skills, #certifications, #contact {
+    #skills, #certifications, #contact , #projects {
         margin: 100px 5% 50px;
         padding: 20px;
     }
 
-    #skills ul, #certifications .certification, #contact form {
+    #skills ul, #certifications .certification, #contact form , #projects .projects-container {
         flex-direction: column;
     }
 
-    #skills li, .certification p, input, textarea, button[type="submit"] {
+    #skills li, .certification p, input, textarea, button[type="submit"], .project img {
         font-size: 1rem;
         padding: 10px;
     }
@@ -391,11 +391,11 @@ button[type="submit"]:hover {
         font-size: 1.2rem;
     }
 
-    .certification img.cert-img {
+    .certification img.cert-img , .project img {
         max-width: 150px;
     }
 
-    #contact h2, #skills h2, #certifications h2 {
+    #contact h2, #skills h2, #certifications h2 , #projects h2 {
         font-size: 2rem;
     }
 }
@@ -425,21 +425,23 @@ button[type="submit"]:hover {
         font-size: 1rem;
     }
 
-    #skills li, .certification p, input, textarea, button[type="submit"] {
+    #skills li, .certification p, input, textarea, button[type="submit"] , .project p {
         font-size: 0.8rem;
         padding: 8px;
     }
 
-    .certification img.cert-img {
+    .certification img.cert-img , .project img {
         max-width: 100px;
     }
 }
 /* Projects Section */
 #projects {
-    padding: 50px;
-    background-color: #f9f9f9;
+    margin: 150px 10% 50px;
+    padding: 40px;
+    background-color: #e8e3e3;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
-
 #projects h2 {
     text-align: center;
     margin-bottom: 30px;
