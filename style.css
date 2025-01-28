@@ -164,7 +164,7 @@ p {
 }
 
 /* Certifications section styling */
-#certifications {
+#certifications , #projects {
     margin: 150px 10% 50px;
     padding: 40px;
     background-color: #e8e3e3;
@@ -172,21 +172,21 @@ p {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-#certifications h2 {
+#certifications h2 , #projects h2 {
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.certification {
+.certification , .project {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
 }
 
-.certification img.cert-img {
+.certification img.cert-img , .project img {
     max-width: 200px;
     height: auto;
     border-radius: 10px;
@@ -195,7 +195,7 @@ p {
     cursor: pointer;
 }
 
-.certification p {
+.certification p , .project p {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
