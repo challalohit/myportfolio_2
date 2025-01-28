@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Challa Lohit</div>
+        <div>
+            <ul class="links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="ph-con">
+        <img src="pfp.png" alt="" height="500px" width="500px" class="pfp">
+        <div class="pfp-m">
+          <div class="pfp-h">Ch.Lohit Ganesh Kumar</div>
+          <p>I'am a <span id="spn">Mechanical Engineer</span></p>
+          <div id="soc">
+            <a href="#" target="new"><i class="fa-solid fa-envelope fa-xl"></i></a>
+            <a href="https://www.linkedin.com/in/challa-lohit-7a1806279/" target="new"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <a href="https://x.com/challalohit116" target="new"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+          </div>
+        </div>
+    </div>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>CAD Design</li>
+            <li>Manufacturing Process</li>
+            <li>Engineering Drawing</li>
+            <li>Machine Drawing</li>
+            <li>Internet Of Things</li>
+            <li>C Language</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript (Basics)</li>
+            <li>Photography</li>
+            <li>Unreal engine 5 (Basics)</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification">
+            <a href="cert1.jpg" target="_self"><img src="cert1.jpg" alt="Certification 1" class="cert-img"></a>
+            <p>Internet of Things Certificate</p>
+        </div>
+        <!-- <div class="certification">
+            <img src="cert2.png" alt="Certification 2" class="cert-img">
+            <p>Certification Name 2</p>
+        </div> -->
+    </section>
+
+    <!-- Projects Section -->
+<section id="certifications">
+    <h2>Projects</h2>
+    <div class="certification">
+        <div class="project">
+            <a href="https://youtu.be/j5h0ZTEWEGw?si=V4ikNDnfNxJ75iLO"><img src="v1.png" alt="Project 1" class="project-img" data-video="starwars.mp4"></a>
+            <p>Starwars in Unreal Engine 5</p>
+        </div>
+        <!-- <div class="project">
+            <img src="project2.jpg" alt="Project 2" class="project-img" data-video="video2.mp4">
+        </div> -->
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+<!-- Modal for Video -->
+<div id="video-modal" class="modal">
+    <span class="close">&times;</span>
+    <video id="video-player" controls></video>
+</div>
+
+
+
+    <!-- Modal for image preview -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" id="send-button">Send</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/584a43c17b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script src="animation.js"></script>
+</body>
+</html>
