@@ -116,10 +116,10 @@ p {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     align-items: center;
     justify-content: center;
-    margin-left: -60%;
+    margin-left: -45%;
     cursor: pointer;
 }
 
