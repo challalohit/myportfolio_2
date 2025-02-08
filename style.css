@@ -101,7 +101,7 @@ a:hover {
 
 .pfp-m,
 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 200;
     color: black;
     cursor: default;
@@ -181,7 +181,7 @@ p {
 
 .certification , .project {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     margin: 20px 0;
 }
